@@ -27,7 +27,6 @@ function weatherDetails(data) {
         code: currentWeather.condition.code,
         timeOfDay: timeOfDay,
     };
-    console.log(weather);
     return weather;
 }
 
@@ -37,7 +36,6 @@ async function getWeatherData(url, errorMsg = defaultErrorMsg) {
         const response = await fetch(url);
         if (!response.ok) throw new Error(errorMsg);
         const data = await response.json();
-        console.log(data);
         const weatherData = weatherDetails(data);
         updateUI(weatherData);
     } catch (err) {
