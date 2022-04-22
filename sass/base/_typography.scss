@@ -1,0 +1,38 @@
+body {
+    font-family: "Rubik", sans-serif;
+}
+.msg {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+.brand {
+    font-size: 2rem;
+    font-weight: 600;
+    a {
+        font-family: "Lobster", cursive;
+    }
+}
+.temp {
+    font-size: 5rem;
+    font-weight: 400;
+}
+.info {
+    .current-city {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+.weather-icon {
+    i {
+        font-size: 25px;
+    }
+}
+input {
+    font-size: 1.25rem;
+}
+.weather-details {
+    h3 {
+        font-size: 1.5rem;
+    }
+}

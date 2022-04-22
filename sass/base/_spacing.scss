@@ -1,0 +1,40 @@
+.weather-app {
+    padding: 2rem;
+}
+.temp,
+.info,
+.desc {
+    margin: 0 2rem;
+}
+.temp {
+    margin-left: 0 !important;
+}
+.panel {
+    padding: 1rem 2rem;
+}
+.inp-container {
+    input {
+        padding: 0.8rem 0;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ffffffc8;
+    }
+    span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 50px;
+    }
+}
+.cities {
+    padding: 2rem 1.5rem;
+    border-bottom: 1px solid #ffffffc8;
+    .city {
+        &:not(:last-of-type) {
+            margin-bottom: 2rem;
+        }
+        &:hover {
+            color: white;
+        }
+    }
+}

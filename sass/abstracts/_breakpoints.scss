@@ -1,0 +1,36 @@
+@media (max-width: 940px) {
+    .container {
+        flex-direction: column;
+    }
+    .weather-app {
+        width: 100% !important;
+        height: fit-content !important;
+        justify-content: flex-start !important;
+        .weather {
+            width: 100%;
+            margin-top: 2rem;
+            justify-content: space-between !important;
+        }
+    }
+    .panel {
+        width: 100% !important;
+    }
+}
+@media (max-width: 640px) {
+    html {
+        font-size: 12px;
+    }
+    .temp,
+    .info,
+    .desc {
+        margin: 0 1rem !important;
+    }
+    .temp {
+        font-size: 4rem !important;
+    }
+    .inp-container {
+        input {
+            padding: 1.35rem 0 !important;
+        }
+    }
+}
