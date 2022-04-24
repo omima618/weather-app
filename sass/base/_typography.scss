@@ -13,19 +13,15 @@ body {
     }
 }
 .temp {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 400;
+    text-align: center;
 }
 .info {
     .current-city {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 400;
         text-align: center;
-    }
-}
-.weather-icon {
-    i {
-        font-size: 25px;
     }
 }
 input {

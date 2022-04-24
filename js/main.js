@@ -2,7 +2,7 @@
 function weatherDetails(data) {
     const currentWeather = data.current;
     const date = new Date(data.location.localtime);
-    const day = weekDays[date.getDay() - 1];
+    const day = weekDays[date.getDay()];
     const month = months[date.getMonth()];
     const dateOfDay =
         date.getDate() < 10 ? `0${date.getDate()}` : date.getDate();

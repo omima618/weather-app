@@ -39,7 +39,7 @@
   }
 
   .temp {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
 
   .inp-container input {
@@ -91,7 +91,7 @@ body {
 }
 .inp-container span {
   position: absolute;
-  top: 0;
+  top: 0px;
   right: 0;
   line-height: 50px;
 }
@@ -125,18 +125,15 @@ body {
 }
 
 .temp {
-  font-size: 5rem;
-  font-weight: 400;
-}
-
-.info .current-city {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 400;
   text-align: center;
 }
 
-.weather-icon i {
-  font-size: 25px;
+.info .current-city {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 input {
@@ -155,9 +152,8 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
-  opacity: 1;
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
+  -webkit-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
 }
 section:before {
   content: "";
@@ -218,8 +214,8 @@ section:before {
       -ms-flex-align: center;
           align-items: center;
   opacity: 0;
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
+  -webkit-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
 }
 .weather .info .time {
   display: block;
@@ -231,6 +227,13 @@ section:before {
   display: block;
   width: 100%;
   text-align: center;
+}
+.weather .weather-icon {
+  margin: 0 auto !important;
+  text-align: center;
+}
+.weather .weather-icon img {
+  width: 50px;
 }
 
 .panel {
@@ -266,7 +269,7 @@ section:before {
   width: 50px;
   height: 50px;
   text-align: center;
-  background-color: #ffa600;
+  background-color: #144c4b;
   cursor: pointer;
   -webkit-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
@@ -277,6 +280,10 @@ section:before {
   color: #ffffffc8;
 }
 .cities .city {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;

@@ -17,13 +17,13 @@ const API_URL = `https://api.weatherapi.com/v1/forecast.json?key=e1a52c16ced44c4
 
 // variables
 const weekDays = [
+    "Sunday",
     "Monday",
     "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",
     "Saturday",
-    "Sunday",
 ];
 const months = [
     "Jan",
